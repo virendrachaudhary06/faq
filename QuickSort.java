@@ -1,4 +1,5 @@
-int[] arr;
+public class QuickSort {
+    int[] arr;
 
     public void sort(int[] arr) {
         if (arr == null || arr.length == 0)
@@ -41,3 +42,5 @@ int[] arr;
         arr[index2] = temp;
 
     }
+
+}
